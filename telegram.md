@@ -34,15 +34,9 @@ def on_chat_message(msg):
     for x in elenco:
         lista += "\n" + x
     print(lista)
-<<<<<<< HEAD
     bot.sendMessage(chat_id, 'ho ricevuto questo: %s'%lista)      
 
 TOKEN = 'yourTokenFromBOTfather'
-=======
-    bot.sendMessage(chat_id, 'ho ricevuto questo: %s'%lista)     
-
-TOKEN = 'yorTokenFromBOTfather'
->>>>>>> e91a9ae773130f18f968fc2857d70593081c15e3
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
@@ -54,7 +48,6 @@ while True:
 
 
 ```
-<<<<<<< HEAD
 
 ## Prepare our BOT
 We have to create a BOT using BOT Father (a particular Telegram BOT).
@@ -66,5 +59,3 @@ At the end of BOT creation Telegram will send us a token, and we have to copy an
 Let's run above script, for example with name ```telgramTest.py```, then run it as python3 ```telegramTest.py```.
 If always gos the right way our script prompts telling that it's ```Listening...```. Now it's time to connect to our BOT with smart phone and then send a message to it. That message is be the path whose we want to retrive files list.
 That list we'll be promptef back to our smart phone.
-=======
->>>>>>> e91a9ae773130f18f968fc2857d70593081c15e3
