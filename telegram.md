@@ -36,7 +36,7 @@ def on_chat_message(msg):
     print(lista)
     bot.sendMessage(chat_id, 'ho ricevuto questo: %s'%lista)      
 
-TOKEN = '798563573:AAFNDB44IQXK0LQz1xSo-CBHv_Llw3i423k'
+TOKEN = 'yourTokenFromBOTfather'
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
