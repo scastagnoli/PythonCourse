@@ -34,10 +34,9 @@ def on_chat_message(msg):
     for x in elenco:
         lista += "\n" + x
     print(lista)
-    bot.sendMessage(chat_id, 'ho ricevuto questo: %s'%lista)
-#temperature della CPU di Rapsberry: /opt/vc/bin/vcgencmd measure_temp        
+    bot.sendMessage(chat_id, 'ho ricevuto questo: %s'%lista)     
 
-TOKEN = '798563573:AAFNDB44IQXK0LQz1xSo-CBHv_Llw3i423k'
+TOKEN = 'yorTokenFromBOTfather'
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
