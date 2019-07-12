@@ -56,6 +56,6 @@ During creating process take note of name you are giving to your BOT. That will 
 At the end of BOT creation Telegram will send us a token, and we have to copy and paste it as value of string TOKEN above.
 
 ## How to make it work
-Let's run above script, for example with name ```telgramTest.py```, then run it as python3 ```telegramTest.py```.
+Let's run above script, for example with name ```telgramTest.py```, then run it as ```python3 telegramTest.py```.
 If always gos the right way our script prompts telling that it's ```Listening...```. Now it's time to connect to our BOT with smart phone and then send a message to it. That message is be the path whose we want to retrive files list.
 That list we'll be promptef back to our smart phone.
